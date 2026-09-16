@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: filtergpt-FDR
+  description: filtergpt fdr document index
+  annotations:
+    github.com/project-slug: loj-swks/catalog-registry
+    ai.backstage.io/index-engine: elasticsearch
+    ai.backstage.io/retention-days: '0'
+  tags:
+    - vector
+    - governance
+    - elasticsearch
+spec:
+  type: vector-index
+  owner: user:default/loj-swks
