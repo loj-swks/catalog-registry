@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: mistral-lna
-  description: 
+  description: mistral finetuned lna model 
   annotations:
     github.com/project-slug: loj-swks/catalog-registry
     ai.backstage.io/serving-engine: vllm
