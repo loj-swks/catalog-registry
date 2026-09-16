@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mistral-lna
+  description: 
+  annotations:
+    github.com/project-slug: loj-swks/catalog-registry
+    ai.backstage.io/serving-engine: vllm
+    ai.backstage.io/model-artifact-uri: https://stskygptindexnonprod002.blob.core.windows.net/ai-testing/mistral-lna
+  tags:
+    - mlops
+    - deployment
+    - vllm
+spec:
+  type: service
+  owner: user:default/loj-swks
+  lifecycle: experimental
