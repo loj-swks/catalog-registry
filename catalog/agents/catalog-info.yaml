@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: email-copilot
+  description: copilot email agent
+  annotations:
+    github.com/project-slug: loj-swks/catalog-registry
+    ai.backstage.io/architecture-style: single-agent-rag
+  tags:
+    - ai-agent
+spec:
+  type: service
+  owner: user:default/loj-swks
+  lifecycle: experimental
